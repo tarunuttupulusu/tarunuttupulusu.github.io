@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Clever Projects - Wanderer 3D Timeline</title>
+    <link rel="icon" type="image/svg+xml" href="/icons/chevrons-left-right.svg" />
+    <style>
+      @font-face {
+        font-family: 'soriaFont';
+        src: url('/soria-font.ttf') format('truetype');
+        font-display: swap;
+      }
+      @font-face {
+        font-family: 'vercettiFont';
+        src: url('/Vercetti-Regular.woff') format('woff');
+        font-display: swap;
+      }
+      * {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        user-select: none;
+        box-sizing: border-box;
+      }
+      html, body, #root {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #bdd1e3;
+        font-family: 'vercettiFont', sans-serif;
+      }
+      canvas {
+        touch-action: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
